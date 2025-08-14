@@ -1,17 +1,13 @@
 version: 0.0.1
 type: plugin
-author: 302ai
-name: 302ai-provider
+author: langgenius
+name: 302ai
 label:
-  en_US: 302ai-provider
-  ja_JP: 302ai-provider
-  zh_Hans: 302ai-provider
-  pt_BR: 302ai-provider
+  en_US: 302.AI
+  zh_Hans: 302.AI
 description:
-  en_US: 302.AI Provider
-  ja_JP: 302.AI Provider
-  zh_Hans: 302.AI Provider
-  pt_BR: 302.AI Provider
+  en_US: 302.AI is a pay-as-you-go AI application platform that offers the most comprehensive AI APIs and online applications available.
+  zh_Hans: 302.AI 是一个按需付费的AI应用平台，提供市面上最全的AI API和AI在线应用。
 icon: icon.svg
 icon_dark: icon-dark.svg
 resource:
@@ -27,7 +23,7 @@ resource:
       moderation: false
 plugins:
   models:
-    - provider/302ai-provider.yaml
+    - provider/ai_302.yaml
 meta:
   version: 0.0.1
   arch:
@@ -38,6 +34,6 @@ meta:
     version: "3.12"
     entrypoint: main
   minimum_dify_version: null
-created_at: 2025-08-11T14:54:23.612484+08:00
+created_at: 2025-08-11T16:40:24.265412+08:00
 privacy: PRIVACY.md
 verified: false

@@ -176,4 +176,4 @@ cython_debug/
 .LSOverride
 
 # Claude
-/CLAUDE.local.md
+/CLAUDE.md

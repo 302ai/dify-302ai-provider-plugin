@@ -1,3 +1,2 @@
-## Privacy
-
-!!! Please fill in the privacy policy of the plugin.
+# Privacy Policy
+https://302.ai/legal/privacy/
