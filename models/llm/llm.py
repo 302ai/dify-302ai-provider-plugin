@@ -95,6 +95,12 @@ class Ai302LargeLanguageModel(OAICompatLargeLanguageModel):
                     type=ParameterType.FLOAT,
                 ),
                 ParameterRule(
+                    name="top_k",
+                    use_template="top_k",
+                    label=I18nObject(en_US="Top K", zh_Hans="Top K"),
+                    type=ParameterType.FLOAT,
+                ),
+                ParameterRule(
                     name="frequency_penalty",
                     use_template="frequency_penalty",
                     label=I18nObject(en_US="Frequency Penalty", zh_Hans="重复惩罚"),
